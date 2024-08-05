@@ -1,12 +1,49 @@
+body{
+    background-image: url(https://imgs.search.brave.com/MBz6ah4wOZ0bOgk97NN1_5yh4mDdXIdzxcDRaJ8QSFQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy83/Lzc5L1J1dGFfTmFj/aW9uYWxfOV9lbl9s/YV9RdWVicmFkYV9k/ZV9IdW1haHVhY2Es/X0p1anV5XygxKS5q/cGc);
+background-size: cover;
+}
 
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+#poste{
+    margin:auto;
+    width: 20px;
+    height: 80px;
+    background-color: rgb(231, 187, 11);
+    border: solid 1px;
+}
+#semaforo {
+    display:flex;
+    flex-direction:column;
+    margin:auto;
+    align-items:center ;
+    width: 100px;
+    background-color: rgb(231, 187, 11);
+    border: solid 1px;
+    border-radius: 10px;
+}
+.light{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.green{
+    background-color: green;
+}
+.violet{
+    background-color: violet;
+}
+.encendido{
+    box-shadow: 0 0 20px 5px rgb(244, 241, 241);
+}
+#boton{
+    display:flex;
+    align-items: center;
+    margin:auto;
+    margin-top: 5cm;
+}
