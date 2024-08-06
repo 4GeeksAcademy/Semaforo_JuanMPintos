@@ -39,7 +39,7 @@ background-size: cover;
     background-color: violet;
 }
 .encendido{
-    box-shadow: 0 0 20px 5px rgb(244, 241, 241);
+    box-shadow: 0 0 20px 5px rgb(255, 255, 255);
 }
 #boton{
     display:flex;
